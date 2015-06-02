@@ -1,0 +1,30 @@
+{
+    "tiles": [
+        {
+            "id": 0,
+            "sprite": "ground"
+        },
+        {
+            "id": 1,
+            "sprite": "mountain"
+        },
+        {
+            "id": 2,
+            "sprite": "water"
+        }
+    ],
+    "units": [
+        {
+            "id": 0,
+            "sprite": "soldier",
+            "icon": "soldier-icon",
+            "buttonScale": 20
+        },
+        {
+            "id": 1,
+            "sprite": "ballista",
+            "icon": "ballista-icon",
+            "buttonScale": 40
+        }
+    ]
+}
