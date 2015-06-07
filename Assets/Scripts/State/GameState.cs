@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,45 +9,49 @@ public class GameState : MonoBehaviour {
 
     Tile[,] tiles;
 
-    public BuildButton button;
-    public GameObject unitPane;
-    public GameObject arrow;
-
     private int turn;
     private List<IPlayer> players = new List<IPlayer>();
 
+    // Move to it's own file
+    public enum PlayState{Placement, Attack, Move};
+    PlayState state;
+
 	// Use this for initialization
 	void Awake () {
-        Player player = new Player();
-        player.setArrow(Instantiate(arrow));
-
         turn = 0;
+
+        Player player = new Player();
         players.Add((IPlayer) player);
 
         State.gameState = this;
+        state = PlayState.Placement;
 
         parser.loadMetadata("metadata");
         createLevel(parser.loadLevel("level"));
-        createUI();
 	}
 
     void Start() {
-        getPlayer().yourTurn();
+        getPlayer().doStage(state);
     }
 
-    void createUI() {
-        Dictionary<int, UnitJSON> units = parser.getUnits();
-
-        int count = 0;
-        foreach (UnitJSON unit in units.Values) {
-            BuildButton newButton = Instantiate(button);
-            newButton.transform.localPosition = new Vector3(count * 50 + 15, -15, 0);
-            newButton.transform.SetParent(unitPane.transform);
-            newButton.transform.localScale = new Vector3(1, 1, 1);
-            newButton.setUnit(unit);
-
-            count++;
+    public void doneState() {
+        switch(state) {
+            case PlayState.Placement:
+                state = PlayState.Attack;
+                break;
+            case PlayState.Attack:
+                state = PlayState.Move;
+                break;
+            case PlayState.Move:
+                state = PlayState.Placement;
+                turn ++;
+                if(turn >= players.Count) {
+                    turn = 0;
+                }
+                break;
         }
+        getPlayer().doStage(state);
+
     }
 
     void createUnit(int unitId, Vector2 position) {
@@ -99,6 +104,7 @@ public class GameState : MonoBehaviour {
     public Player getPlayer() {
         return (Player) players[turn];
     }
+
     void findNeighbors(int targetRow, int targetColumn) {
         bool offset = targetColumn % 2 == 0 ? true : false;
 
@@ -119,17 +125,6 @@ public class GameState : MonoBehaviour {
 
                 tiles[targetRow, targetColumn].addNeighbor(tiles[x, y]);
             }
-        }
-    }
-
-    public void clicked(Tile tile) {
-        Player player = getPlayer();
-
-        if(player.isTargeting()) {
-            player.drawArrow(Tile.selected, tile);
-        } else {
-            if(Tile.selected != null) Tile.selected.reset();
-            tile.select();
         }
     }
 }

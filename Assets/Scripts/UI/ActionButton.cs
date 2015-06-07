@@ -4,7 +4,6 @@ using UnityEngine.UI;
 
 public class ActionButton : MonoBehaviour {
     public string action;
-    public Player player;
 
     private void doAction() {
         switch(action) {

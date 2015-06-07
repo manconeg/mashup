@@ -32,6 +32,7 @@ public class Tile : MonoBehaviour, IPointerClickHandler {
     }
 
     public void move(Tile tile) {
+
     }
 
     public void attack(Tile tile) {
@@ -51,7 +52,7 @@ public class Tile : MonoBehaviour, IPointerClickHandler {
 
     #region IPointerClickHandler implementation
     public void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData) {
-        State.gameState.clicked(this);
+        State.gameState.getPlayer().clicked(this);
     }
     #endregion
 

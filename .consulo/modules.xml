@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ModuleManager">
+    <modules>
+      <module name="mashup" dirurl="file://$PROJECT_DIR$" current-layer="MacOS (any)">
+        <module-layer name="Linux (32 bit)">
+          <extension id="unity3d" sdk-module-name="" sdk-name="Unity3D 5.0.1 (predefined)" output-dir="$ModuleProductionOutputDirPath$" build-target="Windows" file-name="$ModuleName$">
+            <define>UNITY_STANDALONE_LINUX</define>
+            <define>UNITY_5</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Library" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Temp" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/test_Data" />
+          </content>
+          <orderEntry type="sourceFolder" />
+        </module-layer>
+        <module-layer name="Linux (64 bit)">
+          <extension id="unity3d" sdk-module-name="" sdk-name="Unity3D 5.0.1 (predefined)" output-dir="$ModuleProductionOutputDirPath$" build-target="Windows" file-name="$ModuleName$">
+            <define>UNITY_STANDALONE_LINUX</define>
+            <define>UNITY_5</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Library" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Temp" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/test_Data" />
+          </content>
+          <orderEntry type="sourceFolder" />
+        </module-layer>
+        <module-layer name="Linux (any)">
+          <extension id="unity3d" sdk-module-name="" sdk-name="Unity3D 5.0.1 (predefined)" output-dir="$ModuleProductionOutputDirPath$" build-target="Windows" file-name="$ModuleName$">
+            <define>UNITY_STANDALONE_LINUX</define>
+            <define>UNITY_5</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Library" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Temp" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/test_Data" />
+          </content>
+          <orderEntry type="sourceFolder" />
+        </module-layer>
+        <module-layer name="MacOS (32 bit)">
+          <extension id="unity3d" sdk-module-name="" sdk-name="Unity3D 5.0.1 (predefined)" output-dir="$ModuleProductionOutputDirPath$" build-target="Windows" file-name="$ModuleName$">
+            <define>UNITY_STANDALONE_OSX</define>
+            <define>UNITY_5</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Library" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Temp" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/test_Data" />
+          </content>
+          <orderEntry type="sourceFolder" />
+        </module-layer>
+        <module-layer name="MacOS (64 bit)">
+          <extension id="unity3d" sdk-module-name="" sdk-name="Unity3D 5.0.1 (predefined)" output-dir="$ModuleProductionOutputDirPath$" build-target="Windows" file-name="$ModuleName$">
+            <define>UNITY_STANDALONE_OSX</define>
+            <define>UNITY_5</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Library" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Temp" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/test_Data" />
+          </content>
+          <orderEntry type="sourceFolder" />
+        </module-layer>
+        <module-layer name="MacOS (any)">
+          <extension id="unity3d" sdk-module-name="" sdk-name="Unity3D 5.0.1 (predefined)" output-dir="$ModuleProductionOutputDirPath$" build-target="Windows" file-name="$ModuleName$">
+            <define>UNITY_STANDALONE_OSX</define>
+            <define>UNITY_5</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Library" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Temp" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/test_Data" />
+          </content>
+          <orderEntry type="sourceFolder" />
+        </module-layer>
+        <module-layer name="Windows (32 bit)">
+          <extension id="unity3d" sdk-module-name="" sdk-name="Unity3D 5.0.1 (predefined)" output-dir="$ModuleProductionOutputDirPath$" build-target="Windows" file-name="$ModuleName$">
+            <define>UNITY_STANDALONE_WIN</define>
+            <define>UNITY_5</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Library" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Temp" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/test_Data" />
+          </content>
+          <orderEntry type="sourceFolder" />
+        </module-layer>
+        <module-layer name="Windows (64 bit)">
+          <extension id="unity3d" sdk-module-name="" sdk-name="Unity3D 5.0.1 (predefined)" output-dir="$ModuleProductionOutputDirPath$" build-target="Windows" file-name="$ModuleName$">
+            <define>UNITY_STANDALONE_WIN</define>
+            <define>UNITY_5</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Library" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Temp" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/test_Data" />
+          </content>
+          <orderEntry type="sourceFolder" />
+        </module-layer>
+      </module>
+      <module name="Assembly-CSharp-firstpass" current-layer="MacOS (any)">
+        <module-layer name="Linux (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll:///Users/giuseppe/GitHub/mashup/Assets/Plugins/LitJson.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Linux (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll:///Users/giuseppe/GitHub/mashup/Assets/Plugins/LitJson.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Linux (any)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll:///Users/giuseppe/GitHub/mashup/Assets/Plugins/LitJson.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="MacOS (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll:///Users/giuseppe/GitHub/mashup/Assets/Plugins/LitJson.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="MacOS (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll:///Users/giuseppe/GitHub/mashup/Assets/Plugins/LitJson.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="MacOS (any)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll:///Users/giuseppe/GitHub/mashup/Assets/Plugins/LitJson.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Windows (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll:///Users/giuseppe/GitHub/mashup/Assets/Plugins/LitJson.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Windows (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll:///Users/giuseppe/GitHub/mashup/Assets/Plugins/LitJson.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+      </module>
+      <module name="Assembly-UnityScript-firstpass" current-layer="MacOS (any)">
+        <module-layer name="Linux (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-unityscript-child" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll:///Users/giuseppe/GitHub/mashup/Assets/Plugins/LitJson.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Linux (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-unityscript-child" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll:///Users/giuseppe/GitHub/mashup/Assets/Plugins/LitJson.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Linux (any)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-unityscript-child" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll:///Users/giuseppe/GitHub/mashup/Assets/Plugins/LitJson.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="MacOS (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-unityscript-child" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll:///Users/giuseppe/GitHub/mashup/Assets/Plugins/LitJson.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="MacOS (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-unityscript-child" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll:///Users/giuseppe/GitHub/mashup/Assets/Plugins/LitJson.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="MacOS (any)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-unityscript-child" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll:///Users/giuseppe/GitHub/mashup/Assets/Plugins/LitJson.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Windows (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-unityscript-child" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll:///Users/giuseppe/GitHub/mashup/Assets/Plugins/LitJson.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Windows (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-unityscript-child" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll:///Users/giuseppe/GitHub/mashup/Assets/Plugins/LitJson.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+      </module>
+      <module name="Assembly-CSharp-Editor" current-layer="MacOS (any)">
+        <module-layer name="Linux (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp" />
+          <orderEntry type="dot-net-library" name="UnityEditor.Graphs" />
+          <orderEntry type="dot-net-library" name="UnityEditor.UI" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Linux (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp" />
+          <orderEntry type="dot-net-library" name="UnityEditor.Graphs" />
+          <orderEntry type="dot-net-library" name="UnityEditor.UI" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Linux (any)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp" />
+          <orderEntry type="dot-net-library" name="UnityEditor.Graphs" />
+          <orderEntry type="dot-net-library" name="UnityEditor.UI" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="MacOS (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp" />
+          <orderEntry type="dot-net-library" name="UnityEditor.Graphs" />
+          <orderEntry type="dot-net-library" name="UnityEditor.UI" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="MacOS (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp" />
+          <orderEntry type="dot-net-library" name="UnityEditor.Graphs" />
+          <orderEntry type="dot-net-library" name="UnityEditor.UI" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="MacOS (any)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp" />
+          <orderEntry type="dot-net-library" name="UnityEditor.Graphs" />
+          <orderEntry type="dot-net-library" name="UnityEditor.UI" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Windows (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp" />
+          <orderEntry type="dot-net-library" name="UnityEditor.Graphs" />
+          <orderEntry type="dot-net-library" name="UnityEditor.UI" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Windows (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp" />
+          <orderEntry type="dot-net-library" name="UnityEditor.Graphs" />
+          <orderEntry type="dot-net-library" name="UnityEditor.UI" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+      </module>
+      <module name="Assembly-CSharp" current-layer="MacOS (any)">
+        <module-layer name="Linux (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/CameraScript.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/JSONParser.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/MetadataJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/TileJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/UnitJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Mouse.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/GameState.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/IPlayer.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/Player.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/State.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Tile.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/ActionButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/BuildButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/GoButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UIController.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UnitGroup.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Unit.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UnitFactory.cs" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Linux (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/CameraScript.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/JSONParser.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/MetadataJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/TileJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/UnitJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Mouse.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/GameState.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/IPlayer.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/Player.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/State.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Tile.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/ActionButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/BuildButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/GoButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UIController.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UnitGroup.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Unit.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UnitFactory.cs" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Linux (any)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/CameraScript.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/JSONParser.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/MetadataJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/TileJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/UnitJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Mouse.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/GameState.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/IPlayer.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/Player.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/State.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Tile.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/ActionButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/BuildButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/GoButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UIController.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UnitGroup.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Unit.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UnitFactory.cs" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="MacOS (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/CameraScript.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/JSONParser.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/MetadataJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/TileJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/UnitJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Mouse.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/GameState.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/IPlayer.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/Player.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/State.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Tile.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/ActionButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/BuildButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/GoButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UIController.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UnitGroup.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Unit.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UnitFactory.cs" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="MacOS (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/CameraScript.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/JSONParser.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/MetadataJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/TileJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/UnitJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Mouse.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/GameState.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/IPlayer.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/Player.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/State.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Tile.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/ActionButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/BuildButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/GoButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UIController.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UnitGroup.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Unit.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UnitFactory.cs" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="MacOS (any)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/CameraScript.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/JSONParser.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/MetadataJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/TileJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/UnitJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Mouse.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/GameState.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/IPlayer.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/Player.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/State.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Tile.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/ActionButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/BuildButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/GoButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UIController.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UnitGroup.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Unit.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UnitFactory.cs" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Windows (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/CameraScript.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/JSONParser.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/MetadataJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/TileJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/UnitJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Mouse.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/GameState.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/IPlayer.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/Player.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/State.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Tile.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/ActionButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/BuildButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/GoButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UIController.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UnitGroup.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Unit.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UnitFactory.cs" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Windows (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/CameraScript.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/JSONParser.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/MetadataJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/TileJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/UnitJSON.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Mouse.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/GameState.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/IPlayer.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/Player.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/State.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Tile.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/ActionButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/BuildButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/GoButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UIController.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UnitGroup.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Unit.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UnitFactory.cs" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+      </module>
+    </modules>
+  </component>
+</project>

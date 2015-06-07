@@ -4,28 +4,63 @@ using UnityEngine;
 
 public class Player : IPlayer {
 
-    public GameObject arrow;
-
     private bool targeting;
     public bool isTargeting() { return targeting; }
     public void isTargeting(bool targeting) { this.targeting = targeting; }
 
-    public void setArrow(GameObject arrow) { this.arrow = arrow; }
-    public void yourTurn() {
-        hideArrow();
+    public void doneState() {
+        State.gameState.doneState();
     }
 
-    private void hideArrow() {
-        arrow.transform.position = new Vector3(-10, -10, -10);
+    public void doStage(GameState.PlayState state) {
+        State.uiController.clearUI();
+        switch(state) {
+            case GameState.PlayState.Placement:
+                startPlacement();
+                break;
+            case GameState.PlayState.Attack:
+                startAttack();
+                break;
+            case GameState.PlayState.Move:
+                startMove();
+                break;
+        }
     }
 
-    public void drawArrow(Tile from, Tile to) {
-        Vector3 position = from.transform.position + to.transform.position;
-        arrow.transform.position = position / 2;
-        arrow.transform.LookAt(to.transform);
+    private void startAttack() {
+        // Show Attack Button Greyed Out
+    }
 
-        float scale = Vector3.Distance(from.transform.position, to.transform.position) / .64f;
+    private void startMove() {
+        // Show Move Button Greyed Out
+    }
 
-        arrow.transform.localScale = new Vector3(1, 1, scale);
+    private void startPlacement() {
+        State.uiController.hideArrow();
+        createUnitsUI();
+    }
+
+    public void clicked(Tile tile) {
+        if(this.isTargeting()) {
+            State.uiController.drawArrow(Tile.selected, tile);
+        } else {
+            if(Tile.selected != null) Tile.selected.reset();
+            tile.select();
+        }
+    }
+
+    void createAttackUI() {
+
+    }
+
+    void createUnitsUI() {
+        Dictionary<int, UnitJSON> units = State.gameState.parser.getUnits();
+
+        int count = 0;
+        foreach (UnitJSON unit in units.Values) {
+            State.uiController.createUnitButton(unit, count);
+
+            count++;
+        }
     }
 }

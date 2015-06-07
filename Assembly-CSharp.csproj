@@ -59,6 +59,8 @@
      <Compile Include="Assets\Scripts\Tile.cs" />
      <Compile Include="Assets\Scripts\UI\ActionButton.cs" />
      <Compile Include="Assets\Scripts\UI\BuildButton.cs" />
+     <Compile Include="Assets\Scripts\UI\GoButton.cs" />
+     <Compile Include="Assets\Scripts\UI\UIController.cs" />
      <Compile Include="Assets\Scripts\UI\UnitGroup.cs" />
      <Compile Include="Assets\Scripts\Unit.cs" />
      <Compile Include="Assets\Scripts\UnitFactory.cs" />
@@ -66,7 +68,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
- <HintPath>/Users/giuseppe/Documents/Projects/mashup/Assets/Plugins/LitJson.dll</HintPath>
+ <HintPath>/Users/giuseppe/GitHub/mashup/Assets/Plugins/LitJson.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

@@ -2,5 +2,5 @@
 using System.Collections;
 
 public interface IPlayer {
-    void yourTurn();
+    void doStage(GameState.PlayState state);
 }
