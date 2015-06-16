@@ -3,14 +3,14 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class ActionButton : MonoBehaviour {
-    public string action;
+    private string action;
+
+    public void setAction(string action) {
+        this.action = action;
+    }
 
     private void doAction() {
-        switch(action) {
-            case "move":
-                State.gameState.getPlayer().isTargeting(true);
-            break;
-        }
+        State.uiController.doAction(action);
     }
 
     public void Start() {

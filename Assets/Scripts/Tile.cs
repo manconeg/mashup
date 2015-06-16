@@ -7,8 +7,6 @@ using UnityEngine.EventSystems;
 public class Tile : MonoBehaviour, IPointerClickHandler {
     Dictionary<int, UnitGroup> units = new Dictionary<int, UnitGroup>();
 
-    public static Tile selected;
-
     public List<Tile> neighbors = new List<Tile>();
 
     public void addNeighbor(Tile tile) {
@@ -38,25 +36,13 @@ public class Tile : MonoBehaviour, IPointerClickHandler {
     public void attack(Tile tile) {
     }
 
-    public void reset() {
-
-        selected.GetComponent<Renderer>().material.color = Color.white;
-        Tile.selected.changeNeighborsTo(Color.white);
-    }
-
-    public void select() {
-        gameObject.GetComponent<Renderer>().material.color = Color.green;
-        changeNeighborsTo(Color.red);
-        Tile.selected = this;
-    }
-
     #region IPointerClickHandler implementation
-    public void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData) {
-        State.gameState.getPlayer().clicked(this);
+    public void OnPointerClick(PointerEventData eventData) {
+        State.uiController.clicked(this, eventData);
     }
     #endregion
 
-    private void changeNeighborsTo(Color color) {
+    public void changeNeighborsTo(Color color) {
         for(int i = 0; i < neighbors.Count; i++) {
             neighbors[i].gameObject.GetComponent<Renderer>().material.color = color;
         }

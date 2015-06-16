@@ -3,11 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : IPlayer {
-
-    private bool targeting;
-    public bool isTargeting() { return targeting; }
-    public void isTargeting(bool targeting) { this.targeting = targeting; }
-
     public void doneState() {
         State.gameState.doneState();
     }
@@ -27,30 +22,25 @@ public class Player : IPlayer {
         }
     }
 
-    private void startAttack() {
-        // Show Attack Button Greyed Out
-    }
-
-    private void startMove() {
-        // Show Move Button Greyed Out
-    }
-
     private void startPlacement() {
-        State.uiController.hideArrow();
+        State.uiController.clearSelected();
+        State.uiController.text("place");
         createUnitsUI();
     }
 
-    public void clicked(Tile tile) {
-        if(this.isTargeting()) {
-            State.uiController.drawArrow(Tile.selected, tile);
-        } else {
-            if(Tile.selected != null) Tile.selected.reset();
-            tile.select();
-        }
+    private void startAttack() {
+        State.uiController.clearSelected();
+        State.uiController.text("attack");
+        createAttackUI();
+    }
+
+    private void startMove() {
+        State.uiController.clearSelected();
+        State.uiController.text("move");
     }
 
     void createAttackUI() {
-
+        State.uiController.createActionButton("test", 0);
     }
 
     void createUnitsUI() {

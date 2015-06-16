@@ -1,35 +1,65 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class UIController : MonoBehaviour {
     public BuildButton button;
+    public ActionButton actionButton;
     public GameObject unitPane;
     public GameObject commandPane;
     public GameObject goButton;
     public GameObject arrow;
+    public Text stage;
 
-    private GameObject actualArrow;
+    private Arrow arrowScript;
 
-    // Use this for initialization
     void Awake () {
-        actualArrow = Instantiate(arrow);
+        arrowScript = new Arrow(Instantiate(arrow));
         State.uiController = this;
     }
 
-    public void drawArrow(Tile from, Tile to) {
-        Vector3 position = from.transform.position + to.transform.position;
-        float scale = Vector3.Distance(from.transform.position, to.transform.position) / .64f;
-
-        actualArrow.transform.position = position / 2;
-        actualArrow.transform.LookAt(to.transform);
-        arrow.transform.localScale = new Vector3(1, 1, scale);
+    public Tile getSelected() {
+        return arrowScript.getSource();
     }
 
-    public void hideArrow() {
-        arrow.transform.position = new Vector3(-10, -10, -10);
+    public void setSelected(Tile tile) {
+        if(arrowScript.getSource() != null) clearSelected();
+        arrowScript.setSource(tile);
+
+        tile.GetComponent<Renderer>().material.color = Color.green;
+        tile.changeNeighborsTo(Color.red);
     }
 
-    // Move to UI
+    public void clearSelected() {
+        if(arrowScript.getSource()) {
+            arrowScript.getSource().GetComponent<Renderer>().material.color = Color.white;
+            arrowScript.getSource().changeNeighborsTo(Color.white);
+        }
+        arrowScript.clear();
+    }
+
+    public void doAction(string action) {
+        if(action == "move") {
+
+        }
+    }
+
+    public void clicked(Tile tile, PointerEventData eventData) {
+        if(eventData.button == PointerEventData.InputButton.Left) {
+            setSelected(tile);
+//            clearCommands();
+        } else {
+            if(arrowScript.isTargeting()) {
+                arrowScript.setDestination(tile);
+            }
+        }
+    }
+
+    public void text(string text) {
+        stage.text = text;
+    }
+
     public void clearUI() {
         foreach (Transform child in unitPane.transform)
         {
@@ -41,14 +71,22 @@ public class UIController : MonoBehaviour {
         }
     }
 
-    // Move to UI
     public void createUnitButton(UnitJSON unit, int count) {
         BuildButton newButton = Instantiate(button);
         newButton.transform.SetParent(unitPane.transform);
-        newButton.transform.localPosition = new Vector3(count * 50 + 15, -15, 0);
+        newButton.transform.localPosition = new Vector3(count * 50, -15, 0);
         newButton.transform.localScale = new Vector3(1, 1, 1);
         newButton.transform.localRotation = new Quaternion();
         newButton.setUnit(unit);
+    }
+
+    public void createActionButton(string action, int count) {
+        ActionButton newButton = Instantiate(actionButton);
+        newButton.transform.SetParent(commandPane.transform);
+        newButton.transform.localPosition = new Vector3(count * 50, -15, 0);
+        newButton.transform.localScale = new Vector3(1, 1, 1);
+        newButton.transform.localRotation = new Quaternion();
+        newButton.setAction(action);
     }
 
 }
