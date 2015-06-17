@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f6d5569-de92-43a1-8eb8-bad7a929e328" name="Default" comment="- All UI control goes through UIController (buttons should call functions there to make things happen; buttons shouldn't have logic!)&#10;- Pulled PlayState out of GameState and into it's own file&#10;- Added some TODOs for cleaning up code&#10;- Renamed &quot;arrow&quot; to &quot;selectionmanager&quot;&#10;- SelectionManager contains selection related logic (basically arrow control)&#10;- Started retiring action button, I don't think it's needed.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="9f6d5569-de92-43a1-8eb8-bad7a929e328" name="Default" comment="- Added gitignore">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.consulo/workspace.xml" afterPath="$PROJECT_DIR$/.consulo/workspace.xml" />
     </list>
     <ignored path=".consulo/workspace.xml" />
@@ -23,7 +22,7 @@
     <file path="/BuildButton.cs" changelist="9f6d5569-de92-43a1-8eb8-bad7a929e328" time="1434507527075" ignored="false" />
     <file path="/a.dummy" changelist="9f6d5569-de92-43a1-8eb8-bad7a929e328" time="1434332570615" ignored="false" />
     <file path="/Arrow.cs" changelist="9f6d5569-de92-43a1-8eb8-bad7a929e328" time="1434422435798" ignored="false" />
-    <file path="/Dummy.txt" changelist="9f6d5569-de92-43a1-8eb8-bad7a929e328" time="1434508421151" ignored="false" />
+    <file path="/Dummy.txt" changelist="9f6d5569-de92-43a1-8eb8-bad7a929e328" time="1434508489317" ignored="false" />
     <file path="$PROJECT_DIR$/Assets/Scenes/Level.unity" changelist="9f6d5569-de92-43a1-8eb8-bad7a929e328" time="1434422852822" ignored="false" />
     <file path="/SelectionManager.cs" changelist="9f6d5569-de92-43a1-8eb8-bad7a929e328" time="1434499479336" ignored="false" />
     <file path="/.gitignore" changelist="9f6d5569-de92-43a1-8eb8-bad7a929e328" time="1434508398683" ignored="false" />
@@ -89,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5285235" vertical-offset="0" max-vertical-offset="596">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <caret line="21" column="87" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -407,7 +406,7 @@
       <workItem from="1434321287744" duration="6940000" />
       <workItem from="1434423727471" duration="12000" />
       <workItem from="1434499062270" duration="348000" />
-      <workItem from="1434506040980" duration="1272000" />
+      <workItem from="1434506040980" duration="1335000" />
     </task>
     <task id="LOCAL-00001" summary="- Refactored Arrow&#10;- Started work on actions">
       <created>1434422825578</created>
@@ -417,11 +416,15 @@
       <created>1434508371974</created>
       <updated>1434508371974</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- Added gitignore">
+      <created>1434508438716</created>
+      <updated>1434508438716</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24154000" />
+    <option name="totallyTimeSpent" value="24217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="623" y="111" width="1249" height="1022" extended-state="0" />
@@ -497,7 +500,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="- All UI control goes through UIController (buttons should call functions there to make things happen; buttons shouldn't have logic!)&#10;- Pulled PlayState out of GameState and into it's own file&#10;- Added some TODOs for cleaning up code&#10;- Renamed &quot;arrow&quot; to &quot;selectionmanager&quot;&#10;- SelectionManager contains selection related logic (basically arrow control)&#10;- Started retiring action button, I don't think it's needed." />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added gitignore" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -514,6 +517,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="- Refactored Arrow&#10;- Started work on actions" />
     <MESSAGE value="- All UI control goes through UIController (buttons should call functions there to make things happen; buttons shouldn't have logic!)&#10;- Pulled PlayState out of GameState and into it's own file&#10;- Added some TODOs for cleaning up code&#10;- Renamed &quot;arrow&quot; to &quot;selectionmanager&quot;&#10;- SelectionManager contains selection related logic (basically arrow control)&#10;- Started retiring action button, I don't think it's needed." />
+    <MESSAGE value="- Added gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -972,7 +976,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5285235" vertical-offset="0" max-vertical-offset="596">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" column="87" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding />
         </state>
       </provider>
