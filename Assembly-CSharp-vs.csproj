@@ -58,9 +58,9 @@
      <Compile Include="Assets\Scripts\State\State.cs" />
      <Compile Include="Assets\Scripts\Tile.cs" />
      <Compile Include="Assets\Scripts\UI\ActionButton.cs" />
-     <Compile Include="Assets\Scripts\UI\Arrow.cs" />
      <Compile Include="Assets\Scripts\UI\BuildButton.cs" />
      <Compile Include="Assets\Scripts\UI\GoButton.cs" />
+     <Compile Include="Assets\Scripts\UI\SelectionManager.cs" />
      <Compile Include="Assets\Scripts\UI\UIController.cs" />
      <Compile Include="Assets\Scripts\UI\UnitGroup.cs" />
      <Compile Include="Assets\Scripts\Unit.cs" />

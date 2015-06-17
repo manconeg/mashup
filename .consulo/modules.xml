@@ -111,7 +111,7 @@
       <module name="Assembly-CSharp-firstpass" current-layer="MacOS (any)">
         <module-layer name="Linux (32 bit)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module-library" exported="">
             <library>
@@ -131,7 +131,7 @@
         </module-layer>
         <module-layer name="Linux (64 bit)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module-library" exported="">
             <library>
@@ -151,7 +151,7 @@
         </module-layer>
         <module-layer name="Linux (any)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module-library" exported="">
             <library>
@@ -171,7 +171,7 @@
         </module-layer>
         <module-layer name="MacOS (32 bit)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module-library" exported="">
             <library>
@@ -191,7 +191,7 @@
         </module-layer>
         <module-layer name="MacOS (64 bit)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module-library" exported="">
             <library>
@@ -211,7 +211,7 @@
         </module-layer>
         <module-layer name="MacOS (any)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module-library" exported="">
             <library>
@@ -231,7 +231,7 @@
         </module-layer>
         <module-layer name="Windows (32 bit)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module-library" exported="">
             <library>
@@ -251,7 +251,7 @@
         </module-layer>
         <module-layer name="Windows (64 bit)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module-library" exported="">
             <library>
@@ -435,7 +435,7 @@
       <module name="Assembly-CSharp-Editor" current-layer="MacOS (any)">
         <module-layer name="Linux (32 bit)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
           <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
@@ -453,7 +453,7 @@
         </module-layer>
         <module-layer name="Linux (64 bit)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
           <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
@@ -471,7 +471,7 @@
         </module-layer>
         <module-layer name="Linux (any)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
           <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
@@ -489,7 +489,7 @@
         </module-layer>
         <module-layer name="MacOS (32 bit)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
           <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
@@ -507,7 +507,7 @@
         </module-layer>
         <module-layer name="MacOS (64 bit)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
           <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
@@ -525,7 +525,7 @@
         </module-layer>
         <module-layer name="MacOS (any)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
           <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
@@ -543,7 +543,7 @@
         </module-layer>
         <module-layer name="Windows (32 bit)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
           <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
@@ -561,7 +561,7 @@
         </module-layer>
         <module-layer name="Windows (64 bit)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
           <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
@@ -581,7 +581,7 @@
       <module name="Assembly-CSharp" current-layer="MacOS (any)">
         <module-layer name="Linux (32 bit)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/CameraScript.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/JSONParser.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/MetadataJSON.cs" />
@@ -590,13 +590,14 @@
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Mouse.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/GameState.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/IPlayer.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/PlayState.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/Player.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/State.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Tile.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/ActionButton.cs" />
-          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/Arrow.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/BuildButton.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/GoButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/SelectionManager.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UIController.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UnitGroup.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Unit.cs" />
@@ -615,7 +616,7 @@
         </module-layer>
         <module-layer name="Linux (64 bit)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/CameraScript.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/JSONParser.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/MetadataJSON.cs" />
@@ -624,13 +625,14 @@
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Mouse.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/GameState.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/IPlayer.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/PlayState.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/Player.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/State.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Tile.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/ActionButton.cs" />
-          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/Arrow.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/BuildButton.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/GoButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/SelectionManager.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UIController.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UnitGroup.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Unit.cs" />
@@ -649,7 +651,7 @@
         </module-layer>
         <module-layer name="Linux (any)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/CameraScript.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/JSONParser.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/MetadataJSON.cs" />
@@ -658,13 +660,14 @@
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Mouse.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/GameState.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/IPlayer.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/PlayState.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/Player.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/State.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Tile.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/ActionButton.cs" />
-          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/Arrow.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/BuildButton.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/GoButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/SelectionManager.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UIController.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UnitGroup.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Unit.cs" />
@@ -683,7 +686,7 @@
         </module-layer>
         <module-layer name="MacOS (32 bit)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/CameraScript.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/JSONParser.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/MetadataJSON.cs" />
@@ -692,13 +695,14 @@
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Mouse.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/GameState.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/IPlayer.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/PlayState.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/Player.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/State.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Tile.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/ActionButton.cs" />
-          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/Arrow.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/BuildButton.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/GoButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/SelectionManager.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UIController.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UnitGroup.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Unit.cs" />
@@ -717,7 +721,7 @@
         </module-layer>
         <module-layer name="MacOS (64 bit)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/CameraScript.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/JSONParser.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/MetadataJSON.cs" />
@@ -726,13 +730,14 @@
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Mouse.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/GameState.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/IPlayer.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/PlayState.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/Player.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/State.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Tile.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/ActionButton.cs" />
-          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/Arrow.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/BuildButton.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/GoButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/SelectionManager.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UIController.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UnitGroup.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Unit.cs" />
@@ -751,7 +756,7 @@
         </module-layer>
         <module-layer name="MacOS (any)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/CameraScript.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/JSONParser.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/MetadataJSON.cs" />
@@ -760,13 +765,14 @@
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Mouse.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/GameState.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/IPlayer.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/PlayState.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/Player.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/State.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Tile.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/ActionButton.cs" />
-          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/Arrow.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/BuildButton.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/GoButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/SelectionManager.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UIController.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UnitGroup.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Unit.cs" />
@@ -785,7 +791,7 @@
         </module-layer>
         <module-layer name="Windows (32 bit)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/CameraScript.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/JSONParser.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/MetadataJSON.cs" />
@@ -794,13 +800,14 @@
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Mouse.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/GameState.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/IPlayer.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/PlayState.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/Player.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/State.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Tile.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/ActionButton.cs" />
-          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/Arrow.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/BuildButton.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/GoButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/SelectionManager.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UIController.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UnitGroup.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Unit.cs" />
@@ -819,7 +826,7 @@
         </module-layer>
         <module-layer name="Windows (64 bit)">
           <extension id="unity3d-child" />
-          <extension id="unity3d-csharp-child" unsafe-code="false" optimize-code="false" platform="ANY_CPU" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/CameraScript.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/JSONParser.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/JSON/MetadataJSON.cs" />
@@ -828,13 +835,14 @@
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Mouse.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/GameState.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/IPlayer.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/PlayState.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/Player.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/State/State.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Tile.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/ActionButton.cs" />
-          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/Arrow.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/BuildButton.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/GoButton.cs" />
+          <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/SelectionManager.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UIController.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/UI/UnitGroup.cs" />
           <content url="file://$USER_HOME$/GitHub/mashup/Assets/Scripts/Unit.cs" />

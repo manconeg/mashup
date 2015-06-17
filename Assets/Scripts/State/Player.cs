@@ -7,31 +7,33 @@ public class Player : IPlayer {
         State.gameState.doneState();
     }
 
-    public void doStage(GameState.PlayState state) {
+    public void doStage(PlayState state) {
         State.uiController.clearUI();
         switch(state) {
-            case GameState.PlayState.Placement:
+            case PlayState.Placement:
                 startPlacement();
                 break;
-            case GameState.PlayState.Attack:
+            case PlayState.Attack:
                 startAttack();
                 break;
-            case GameState.PlayState.Move:
+            case PlayState.Move:
                 startMove();
                 break;
         }
     }
 
     private void startPlacement() {
+        // TODO this stuff should be un UI controller
         State.uiController.clearSelected();
         State.uiController.text("place");
         createUnitsUI();
     }
 
     private void startAttack() {
+        // TODO this stuff should be in UI controller
         State.uiController.clearSelected();
         State.uiController.text("attack");
-        createAttackUI();
+//        createAttackUI();
     }
 
     private void startMove() {
@@ -39,9 +41,9 @@ public class Player : IPlayer {
         State.uiController.text("move");
     }
 
-    void createAttackUI() {
-        State.uiController.createActionButton("test", 0);
-    }
+//    void createAttackUI() {
+//        State.uiController.createActionButton("test", 0);
+//    }
 
     void createUnitsUI() {
         Dictionary<int, UnitJSON> units = State.gameState.parser.getUnits();

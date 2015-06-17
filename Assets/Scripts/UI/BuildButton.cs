@@ -13,7 +13,7 @@ public class BuildButton : MonoBehaviour {
     }
 
     public void create() {
-        UnitFactory.create(unit);
+        State.uiController.unit(unit);
     }
 
     public void Start() {

@@ -10,7 +10,7 @@ public class ActionButton : MonoBehaviour {
     }
 
     private void doAction() {
-        State.uiController.doAction(action);
+//        State.uiController.doAction(action);
     }
 
     public void Start() {

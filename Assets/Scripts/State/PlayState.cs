@@ -1,0 +1,1 @@
+public enum PlayState{Placement, Attack, Move};

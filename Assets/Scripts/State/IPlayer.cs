@@ -2,5 +2,5 @@
 using System.Collections;
 
 public interface IPlayer {
-    void doStage(GameState.PlayState state);
+    void doStage(PlayState state);
 }

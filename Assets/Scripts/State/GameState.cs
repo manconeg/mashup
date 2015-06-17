@@ -12,8 +12,6 @@ public class GameState : MonoBehaviour {
     private int turn;
     private List<IPlayer> players = new List<IPlayer>();
 
-    // Move to it's own file
-    public enum PlayState{Placement, Attack, Move};
     PlayState state;
 
 	// Use this for initialization

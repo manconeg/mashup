@@ -12,46 +12,58 @@ public class UIController : MonoBehaviour {
     public GameObject arrow;
     public Text stage;
 
-    private Arrow arrowScript;
+    private SelectionManager selectionManager;
 
     void Awake () {
-        arrowScript = new Arrow(Instantiate(arrow));
+        selectionManager = new SelectionManager(Instantiate(arrow));
         State.uiController = this;
     }
 
     public Tile getSelected() {
-        return arrowScript.getSource();
+        return selectionManager.getSource();
     }
 
     public void setSelected(Tile tile) {
-        if(arrowScript.getSource() != null) clearSelected();
-        arrowScript.setSource(tile);
-
-        tile.GetComponent<Renderer>().material.color = Color.green;
-        tile.changeNeighborsTo(Color.red);
+        selectionManager.setSource(tile);
     }
 
     public void clearSelected() {
-        if(arrowScript.getSource()) {
-            arrowScript.getSource().GetComponent<Renderer>().material.color = Color.white;
-            arrowScript.getSource().changeNeighborsTo(Color.white);
-        }
-        arrowScript.clear();
+        selectionManager.clear();
     }
 
-    public void doAction(string action) {
-        if(action == "move") {
-
+    public void unit(UnitJSON unit) {
+        if(State.gameState.state == PlayState.Placement) {
+            // TODO: This should be a gamestate thing, not a dependency on unit factory
+            // gamestate needs to check for counter attacks, eventually
+            UnitFactory.create(unit);
+        }
+        if(State.gameState.state == PlayState.Move) {
+            // if( there is a destination tile )
+            // move unit to destination tile
+            // decrement unit from current tile
+        }
+        if(State.gameState.state == PlayState.Attack) {
+            // if( there is a destination tile )
+            // attack destination square
         }
     }
 
     public void clicked(Tile tile, PointerEventData eventData) {
         if(eventData.button == PointerEventData.InputButton.Left) {
             setSelected(tile);
-//            clearCommands();
+            // clear units
+            if(State.gameState.state == PlayState.Placement) {
+                // show units player can build
+            }
+            if(State.gameState.state == PlayState.Move) {
+                // set unts to the units in the tile if the state is move
+            }
+            if(State.gameState.state == PlayState.Attack) {
+                // show units capable of attacking
+            }
         } else {
-            if(arrowScript.isTargeting()) {
-                arrowScript.setDestination(tile);
+            if(selectionManager.isTargeting()) {
+                selectionManager.setDestination(tile);
             }
         }
     }
@@ -80,13 +92,13 @@ public class UIController : MonoBehaviour {
         newButton.setUnit(unit);
     }
 
-    public void createActionButton(string action, int count) {
-        ActionButton newButton = Instantiate(actionButton);
-        newButton.transform.SetParent(commandPane.transform);
-        newButton.transform.localPosition = new Vector3(count * 50, -15, 0);
-        newButton.transform.localScale = new Vector3(1, 1, 1);
-        newButton.transform.localRotation = new Quaternion();
-        newButton.setAction(action);
-    }
+//    public void createActionButton(string action, int count) {
+//        ActionButton newButton = Instantiate(actionButton);
+//        newButton.transform.SetParent(commandPane.transform);
+//        newButton.transform.localPosition = new Vector3(count * 50, -15, 0);
+//        newButton.transform.localScale = new Vector3(1, 1, 1);
+//        newButton.transform.localRotation = new Quaternion();
+//        newButton.setAction(action);
+//    }
 
 }

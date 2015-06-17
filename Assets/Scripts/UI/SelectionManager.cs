@@ -4,16 +4,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Arrow {
+public class SelectionManager {
     private GameObject arrow;
     private Tile source;
     private Tile destination;
 
-    public Arrow(GameObject arrow) {
+    public SelectionManager(GameObject arrow) {
         this.arrow = arrow;
     }
 
     public void clear() {
+        if(getSource()) {
+            getSource().GetComponent<Renderer>().material.color = Color.white;
+            getSource().changeNeighborsTo(Color.white);
+        }
         source = null;
         destination = null;
         hideArrow();
@@ -24,6 +28,11 @@ public class Arrow {
     }
 
     public void setSource(Tile tile) {
+        if(getSource() != null) clear();
+
+        tile.GetComponent<Renderer>().material.color = Color.green;
+        tile.changeNeighborsTo(Color.red);
+
         destination = null;
         source = tile;
         hideArrow();
